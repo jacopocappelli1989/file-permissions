@@ -67,7 +67,7 @@ namespace :deploy do
 
       on roles fetch(:file_permissions_roles) do |host|
         paths = absolute_writable_paths
-        execute :sudo, :chgrp, "-R", groups.first, *paths
+        execute :sudo, :chown, "-R", user.first+":"+groups.first, *paths
         # make sure all child directories inherit group writable
         execute :sudo, :chmod, "-R", "g+rws", *paths
       end
