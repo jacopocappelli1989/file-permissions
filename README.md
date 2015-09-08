@@ -2,6 +2,10 @@
 
 File permissions handling for Capistrano v3.*
 
+## Change
+
+chmod -R user:group
+
 ## Installation
 
 Add this line to your application's Gemfile:
