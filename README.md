@@ -77,3 +77,6 @@ set :file_permissions_chmod_mode, "0777"
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+# Changed
+<a href="https://www.keeepup.pro/" target="_blank">Web Agency KeepUP</a>
